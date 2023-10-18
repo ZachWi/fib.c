@@ -16,6 +16,6 @@ int main() {
     long double n;
     printf("n: ");
     scanf("%Lf", &n);
-    printf("fib(%Lf) = %Lf\n", n, fibIter(n));
+    printf("fib(%.*Lf) = %.*Lf\n", 0, n, 0, fibIter(n));
     return 0;
 }
